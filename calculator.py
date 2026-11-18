@@ -19,6 +19,10 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
+def div(a, b):
+    if a == 0:
+        raise ZeroDivisionError("Cannot Divide by Zero")
+
 def logarithm(a, b):
     # log base a of b
     if a <= 0 or a == 1:
