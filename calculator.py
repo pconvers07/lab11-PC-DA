@@ -15,7 +15,7 @@ def square_root(a):
     except TypeError:
         raise ValueError("Input must be a number")
 
-
+g
 def hypotenuse(a, b):
     # negative numbers are allowed
     try:
